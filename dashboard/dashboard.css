@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid lime; */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0eef1;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 20rem auto auto;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.container {
+    background-color: white;
+    height: 70vh;
+    border-radius: 5px;
+    height: 100vh;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+
+.left {
+
+    height: 65vh;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: orange;
+    gap: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-bottom: 35px;
+    background-color: #110f0f;
+    border-radius: 5px;
+}
+
+.dashboard a{
+    text-decoration:none;
+    color:orange ;
+}
+
+
+.grid-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.nav-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 25px;
+    /* background-color: #efe0ff; */
+}
+
+.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    /* border: 2px solid black; */
+    transition: all ease-in 2s;
+}
+
+.hover:hover {
+    margin-top:10px;
+    text-decoration:dashed;
+     border-bottom: 5px solid;
+}
+
+.nav-child a {
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease-in;
+    font-size: 17px;
+}
+
+.logout {
+    display: flex;
+    padding: 10px;
+    gap: 9px;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+
+.log-out {}
+
+.logout:hover {
+    background-color: #c5c4c6;
+    border-radius: 5px;
+    margin-left: 2px;
+    transition: all ease 0.8s;
+}
+
+.logout .log-out:hover {}
+
+.logout a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: violet;
+    padding: 35px 10px;
+    /* border-radius: 9px; */
+    /* margin-left: 8px; */
+    /* width: fit-content; */
+}
+
+.sub-heading1 .admin_greet {
+    /* text-align: center; */
+}
+
+.sub-heading2 {
+ 
+}
+
+.sub-heading2 img {
+
+    height: 50px;
+    width: 50px;
+}
+
+.heading-date {
+    display: flex;
+    align-item: center;
+    /* justify-content:center; */
+    gap: 2px;
+    margin-top: 30px;
+    padding: 5px;
+    /* background-color:white;
+    width:fit-content;
+    padding:8px; */
+}
+
+.heading-content {
+    display: flex;
+}
+
+.content-data {
+    margin: 20px;
+    margin-top: 40px;
+    background-color: rgb(233, 121, 248);
+    padding: 25px 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+}
+
+.content-data a {
+    text-decoration: none;
+    color: rgb(11, 9, 9);
+}
+
+.content-value1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-value2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.content-data1 {
+    background-color: #fadf7f;
+}
+
+.content-data2 {
+    background-color: #73fcb5;
+}
+
+.content-data3 {
+    background-color: #73bafc;
+}
+
+.content-data4 {
+    background-color: #d773fc;
+}
+
+.feth-icon .icon {
+    height: 40px;
+    width: 40px;
+}
+
+.recent-request {
+    background-color: white;
+    margin-top: 25px;
+    padding-bottom: 60px;
+    /* margin-left: 8px; */
+    border-radius: 9px;
+}
+
+.recent-request-p1 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section2 {
+    /* margin: 20px 0px; */
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    background-color: rgb(125, 118, 252);
+    padding: 10px 0;
+    border-radius: 9px;
+    /* margin-left: 15px; */
+}
+
+.maruqee-img {
+    margin-right: 50px;
+    object-fit: contain;
+    height: 45px;
+    width: 45px;
+    /* animation: marque 2s ease infinite; */
+}
+
+@keyframes marque {
+    to {
+        transform: translateX(0)
+    }
+
+    from {
+        transform: translateX(1000px);
+    }
+}
+
+/* .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} */
+
+table {
+    border-collapse: collapse;
+    width: 96%;
+    margin-left: 15px;
+
+
+}
+
+td {
+    text-align: center;
+
+}
