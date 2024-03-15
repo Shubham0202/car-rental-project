@@ -22,10 +22,11 @@ if(isset($_COOKIE['u_id']))
 $sql = "INSERT INTO `rented`(`dr_lic`, `name`, `mobile`, `email`, `address`, `r_car_type`, `r_car_name`, `r_price`, `u_id`) VALUES ('$dr_lic','$name','$mobile','$email','$address','$r_car_type','$r_car_name','$r_price','$uId')";
 
 if ($con->query($sql) === TRUE) 
-    echo "<center>New record Rented  successfully</center>";
+    echo '<center>Car Rented  successfully</center> <br><br> <center> <a href="index.php">Go Back To Home </a></center>';
  else 
     echo "Error: " . $sql . "<br>" . $con->error;
 }
+else
 echo '<center><a href="register.html">Please Log in First</a></center>';
 }
 
