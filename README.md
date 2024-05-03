@@ -16,7 +16,7 @@ This project is a web-based car rental system developed using HTML, CSS, JavaScr
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/car-rental-project.git
+git clone https://github.com/Shubham0202/car-rental-project.git
 
 
 2. **Import the Database**:
