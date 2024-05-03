@@ -25,11 +25,11 @@ git clone https://github.com/Shubham0202/car-rental-project.git
 
 3. **Configure Database Connection**:
 
-   - Update the `config.php` file located in the `includes` directory with your database credentials.
+   - Update the `connect.php` file located in the `root` directory with your database credentials.
 
 4. **Start the Server**:
 
-   - Start a PHP server (e.g., using XAMPP, WAMP, or MAMP).
+   - Start a PHP server (e.g., using XAMPP).
 
 5. **Access the Application**:
 
@@ -44,6 +44,3 @@ git clone https://github.com/Shubham0202/car-rental-project.git
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
